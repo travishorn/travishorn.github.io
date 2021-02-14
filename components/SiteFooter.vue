@@ -5,9 +5,14 @@
         <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" :d="link.d"/></svg>
       </a>
     </div>
-    <div class="text-center">
-      &copy; Travis Horn<br />
-      Made with 💜 using Nuxt.js &amp; Tailwind CSS
+    <div class="text-center space-y-3">
+      <p>&copy; Travis Horn</p>
+      <p>
+        Made with 💜 using
+        <a class="text-purple-300 hover:text-purple-200" href="https://nuxtjs.org/">Nuxt.js</a>
+        &amp;
+        <a class="text-purple-300 hover:text-purple-200" href="https://tailwindcss.com/">Tailwind CSS</a>
+      </p>
     </div>
   </div>
 </template>
