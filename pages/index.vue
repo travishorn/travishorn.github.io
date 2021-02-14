@@ -53,6 +53,42 @@ export default {
             src: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
             alt: "Programmer"
           }
+        },
+        {
+          title: "Magna sed ultrices",
+          description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
+          links: [
+            {
+              text: "Live Example",
+              href: "#"
+            },
+            {
+              text: "Code",
+              href: "#"
+            }
+          ],
+          thumbnail: {
+            src: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
+            alt: "Programmer"
+          }
+        },
+        {
+          title: "Magna sed ultrices",
+          description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
+          links: [
+            {
+              text: "Live Example",
+              href: "#"
+            },
+            {
+              text: "Code",
+              href: "#"
+            }
+          ],
+          thumbnail: {
+            src: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
+            alt: "Programmer"
+          }
         }
       ]
     };
