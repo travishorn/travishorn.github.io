@@ -33,7 +33,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    families: {
+      Quicksand: true
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
