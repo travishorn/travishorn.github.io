@@ -1,5 +1,5 @@
 <template>
   <div>
-    <Nuxt />
+    contact
   </div>
 </template>

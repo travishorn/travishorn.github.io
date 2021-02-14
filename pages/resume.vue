@@ -1,5 +1,5 @@
 <template>
   <div>
-    <Nuxt />
+    resume
   </div>
 </template>
