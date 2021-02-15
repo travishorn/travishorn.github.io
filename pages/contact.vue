@@ -1,17 +1,21 @@
 <template>
-  <div class="space-y-10 max-w-xs mx-auto">
-    <div v-for="link in contactLinks" :key="link.title">
-      <div class="flex space-x-5">
-        <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" :d="link.d"/></svg>
-        <div>
-          <div class="text-xl font-bold">{{ link.title }}</div>
-          <a class="link-purple" :href="link.href">{{ link.displayHref }}</a>
-          <p>{{ link.description }}</p>
+  <div class="space-y-10">
+    <div class="text-center">
+      <div class="space-y-10 inline-block mx-auto text-left">
+        <div v-for="link in contactLinks" :key="link.title">
+          <div class="flex space-x-5">
+            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" :d="link.d"/></svg>
+            <div>
+              <div class="text-xl font-bold">{{ link.title }}</div>
+              <a class="link-purple" :href="link.href">{{ link.displayHref }}</a>
+              <p>{{ link.description }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <p>
+    <p class="max-w-sm mx-auto">
       These are the best ways to get a hold of me. You can also see my other
       online profiles using the social buttons in the footer below.
     </p>
