@@ -24,8 +24,8 @@ export default {
           to: "/"
         },
         {
-          text: "Résumé",
-          to: "/resume"
+          text: "About me",
+          to: "/about-me"
         },
         {
           text: "Contact",
