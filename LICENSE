@@ -1,24 +1,3 @@
-# Travis Horn's Portfolio
-
-Hello! This is the source code for my portfolio hosted at
-https://travishorn.github.io.
-
-![Screenshot](screenshot.png)
-
-The site was built with a few awesome libraries and tools:
-
-- [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) for [GitHub Actions](https://github.com/features/actions)
-- [GitHub Pages](https://pages.github.com/)
-- [Nuxt.js](https://nuxtjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-I drew design inspiration from a few open-source templates:
-
-- [Stellar](https://html5up.net/stellar) from HTML5 UP
-- [Solid State](https://html5up.net/solid-state) from HTML5 UP
-
-## License
-
 The MIT License
 
 Copyright 2021 Travis Horn
