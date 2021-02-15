@@ -1,12 +1,14 @@
 <template>
   <div>
-    <div class="md:flex items-center pb-10 mb-10 border-b space-y-8 md:space-y-0 md:mx-20 text-center md:text-left" v-for="(project, i) in projects" :key="project.title" :class="{ 'md:text-right': i % 2 !== 0 }">
-      <img class="rounded-full w-48 h-48 inline md:mr-8" :class="{ 'md:order-2': i % 2 !== 0, 'md:mr-0': i % 2 !== 0, 'md:ml-8': i % 2 !== 0 }" :src="project.thumbnail.src" :alt="project.thumbnail.alt">
-      <div class="space-y-8">
-        <h3 class="text-2xl">{{ project.title }}</h3>
-        <p>{{ project.description }}</p>
-        <div class="space-x-2">
-          <a class="bg-purple-600 text-white px-5 py-2 rounded-md shadow-md hover:bg-purple-500" v-for="link in project.links" :key="link.text" :href="link.href">{{ link.text }}</a>
+    <div class="max-w-5xl mx-auto">
+      <div class="md:flex items-center pb-10 mb-10 md:pb-20 md:mb-20 border-b space-y-8 md:space-y-0 md:mx-20 text-center md:text-left" v-for="(project, i) in projects" :key="project.title" :class="{ 'md:text-right': i % 2 !== 0 }">
+        <img class="rounded-full w-48 h-48 inline md:mr-8 shadow-lg" :class="{ 'md:order-2': i % 2 !== 0, 'md:mr-0': i % 2 !== 0, 'md:ml-8': i % 2 !== 0 }" :src="project.thumbnail.src" :alt="project.thumbnail.alt">
+        <div class="space-y-8">
+          <h3 class="text-2xl">{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <div class="space-x-2">
+            <a class="bg-purple-600 text-white px-5 py-2 rounded-md shadow-md hover:bg-purple-500" v-for="link in project.links" :key="link.text" :href="link.href">{{ link.text }}</a>
+          </div>
         </div>
       </div>
     </div>
@@ -39,12 +41,12 @@ export default {
             }
           ],
           thumbnail: {
-            src: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
-            alt: "Programmer"
+            src: "/thumbnails/project-1.png",
+            alt: "Colorful grid of company icons and names"
           }
         },
         {
-          title: "Magna sed ultrices",
+          title: "Nam condimentum at purus",
           description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
           links: [
             {
@@ -57,12 +59,12 @@ export default {
             }
           ],
           thumbnail: {
-            src: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
-            alt: "Programmer"
+            src: "/thumbnails/project-2.png",
+            alt: "Geometric pattern of triangles in shades of blue"
           }
         },
         {
-          title: "Magna sed ultrices",
+          title: "Etiam hendrerit",
           description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
           links: [
             {
@@ -75,12 +77,12 @@ export default {
             }
           ],
           thumbnail: {
-            src: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
-            alt: "Programmer"
+            src: "/thumbnails/project-3.png",
+            alt: "Circles of varying colors and patterns"
           }
         },
         {
-          title: "Magna sed ultrices",
+          title: "Integer at nisl lacinia",
           description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
           links: [
             {
@@ -93,8 +95,8 @@ export default {
             }
           ],
           thumbnail: {
-            src: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
-            alt: "Programmer"
+            src: "/thumbnails/project-4.png",
+            alt: "Screenshot of Massachusetts Bay transit map"
           }
         }
       ]
