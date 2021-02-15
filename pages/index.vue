@@ -13,9 +13,9 @@
 
     <p class="text-center text-2xl mt-20">
       You can see <strong>hundreds</strong> more examples of my work on my
-      <a class="text-purple-600 hover:text-purple-500" href="https://github.com/travishorn">GitHub profile</a>
+      <a class="link-purple" href="https://github.com/travishorn">GitHub profile</a>
       and
-      <a class="text-purple-600 hover:text-purple-500" href="https://codepen.io/travishorn">CodePen profile</a>.
+      <a class="link-purple" href="https://codepen.io/travishorn">CodePen profile</a>.
     </p>
   </div>
 </template>
