@@ -82,21 +82,21 @@ export default {
           }
         },
         {
-          title: "Integer at nisl lacinia",
-          description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
+          title: "API Server with JWT Authentication",
+          description: "An API server that signs and verifies JSON Web Tokens for authentication.",
           links: [
             {
-              text: "Live Example",
-              href: "#"
+              text: "Blog Post",
+              href: "https://travishorn.com/api-server-with-jwt-authentication-6bb4985c5253"
             },
             {
               text: "Code",
-              href: "#"
+              href: "https://github.com/travishorn/koa-sqlite-jwt-server"
             }
           ],
           thumbnail: {
-            src: "/thumbnails/project-4.png",
-            alt: "Screenshot of Massachusetts Bay transit map"
+            src: "/thumbnails/jwt-api.png",
+            alt: "JWT | API"
           }
         }
       ]
