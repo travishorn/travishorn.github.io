@@ -64,21 +64,21 @@ export default {
           }
         },
         {
-          title: "Etiam hendrerit",
-          description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
+          title: "Webfile",
+          description: "A purpose-built Node.js server which acts as a web-based file browser. Point it at a directory and run the server.",
           links: [
             {
-              text: "Live Example",
-              href: "#"
+              text: "Demo Video",
+              href: "https://github.com/travishorn/webfile/blob/master/webfile-demo.gif"
             },
             {
               text: "Code",
-              href: "#"
+              href: "https://github.com/travishorn/webfile"
             }
           ],
           thumbnail: {
-            src: "/thumbnails/project-3.png",
-            alt: "Circles of varying colors and patterns"
+            src: "/thumbnails/webfile.png",
+            alt: "Thumbnail screenshot of a web-based directory browser."
           }
         },
         {
