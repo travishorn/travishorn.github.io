@@ -29,7 +29,7 @@ export default {
       projects: [
         {
           title: "Session Timeout",
-          description: "An all-in-one library with no dependencies that helps site visitors manage session timeouts. After a configurable amount of time, a warning message is displayed with options for the user to end their session or stay connected. If they chose to stay connected, a configurable \"ping\" is sent to the server to keep the session alive.",
+          description: "An all-in-one library that helps site visitors manage session timeouts. After a set amount of time, a warning message is displayed with options for the user to end their session or stay connected. Highly configurable and highly styleable.",
           links: [
             {
               text: "Live Example",
@@ -46,21 +46,21 @@ export default {
           }
         },
         {
-          title: "Nam condimentum at purus",
-          description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
+          title: "Transit Map",
+          description: "A live real-time, real-world map of the vehicles currently being operated by the Massachusetts Bay Transportation Authority. Requires no backend and uses server-sent events from the MBTA API.",
           links: [
             {
               text: "Live Example",
-              href: "#"
+              href: "https://codepen.io/travishorn/full/aMabLE"
             },
             {
               text: "Code",
-              href: "#"
+              href: "https://codepen.io/travishorn/pen/aMabLE?editors=0010"
             }
           ],
           thumbnail: {
-            src: "/thumbnails/project-2.png",
-            alt: "Geometric pattern of triangles in shades of blue"
+            src: "/thumbnails/transit-map.png",
+            alt: "Thumbnail screenshot of a map of the Massachusetts Bay with markers for vehicles operated by the MBTA."
           }
         },
         {
