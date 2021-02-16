@@ -28,21 +28,21 @@ export default {
     return {
       projects: [
         {
-          title: "Magna sed ultrices",
-          description: "Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.",
+          title: "Session Timeout",
+          description: "An all-in-one library with no dependencies that helps site visitors manage session timeouts. After a configurable amount of time, a warning message is displayed with options for the user to end their session or stay connected. If they chose to stay connected, a configurable \"ping\" is sent to the server to keep the session alive.",
           links: [
             {
               text: "Live Example",
-              href: "#"
+              href: "https://travishorn.github.io/session-timeout/"
             },
             {
               text: "Code",
-              href: "#"
+              href: "https://github.com/travishorn/session-timeout"
             }
           ],
           thumbnail: {
-            src: "/thumbnails/project-1.png",
-            alt: "Colorful grid of company icons and names"
+            src: "/thumbnails/session-timeout.png",
+            alt: "Thumbnail screenshot of a modal alert warning the user their session is about to expire."
           }
         },
         {
