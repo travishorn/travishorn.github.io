@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto pt-20 text-white space-y-20">
     <div class="flex justify-center space-x-5 sm:space-x-10">
-      <a class="border-white border-2 rounded-full p-2 hover:text-stellar-blue hover:bg-white" v-for="link in socialLinks" :key="link.title" :title="link.title" :href="link.href">
+      <a class="border-white border-2 rounded-full p-2 hover:text-stellar-purple hover:bg-white" v-for="link in socialLinks" :key="link.title" :title="link.title" :href="link.href">
         <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" :d="link.d"/></svg>
       </a>
     </div>

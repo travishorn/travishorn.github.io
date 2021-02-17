@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "stellar-red": "#DE7784",
-        "stellar-blue": "#625296"
+        "stellar-blue": "#8ed3d9",
+        "stellar-purple": "#625296"
       },
       fontFamily: {
         sans: ["Quicksand", ...defaultTheme.fontFamily.sans]
