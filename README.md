@@ -5,4 +5,5 @@ built.
 
 ## To Do
 
-- Design porfolio section
+- Enhance porfolio cards
+- Add more portfolio projects
