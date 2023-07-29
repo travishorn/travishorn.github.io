@@ -5,8 +5,6 @@ built.
 
 ## To Do
 
-- Configure SSG
-- Optimize images
 - Replace filler text
 - Create site header
   - Nav links for home, about, projects, contact
