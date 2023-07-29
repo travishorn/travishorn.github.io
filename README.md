@@ -5,6 +5,5 @@ built.
 
 ## To Do
 
-- Create site header
-  - Nav links for home, about, projects, contact
 - Design project showcase
+- Add contact section
