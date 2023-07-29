@@ -10,7 +10,7 @@
 		Horn
 	</h1>
 
-	<div class="flex flex-col gap-4 lg:gap-8 pt-10 lg:pt-60 lg:order-last max-w-sm">
+	<div class="flex flex-col gap-4 lg:gap-8 pt-10 lg:pt-60 lg:order-last lg:max-w-sm">
 		<div class="font-bold text-2xl">
 			Based in St. Louis, I'm a data scientist and software engineer.
 		</div>
