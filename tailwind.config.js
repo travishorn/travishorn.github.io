@@ -6,7 +6,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				'sans': ['Inter Variable', ...defaultTheme.fontFamily.sans]
+				sans: ['Inter Variable', ...defaultTheme.fontFamily.sans]
 			},
 			colors: {
 				'rosa-aquamarine-600': '#00ffbb',
