@@ -16,8 +16,8 @@
 		</div>
 
 		<div class="text-sm text-rosa-gray-100">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem numquam at laboriosam
-			architecto sint, ipsa laborum.
+			Impactful problem-solving calls for a combination of data-driven insights, software solutions,
+			and a collaborative environment.
 		</div>
 
 		<a
@@ -37,15 +37,15 @@
 		<div class="flex flex-col lg:flex-row gap-24">
 			<div class="lg:w-1/2 flex flex-col gap-5">
 				<div class="text-2xl font-bold">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni cum magnam doloremque
-					natus officiis.
+					In the realm of data science, hidden narratives of information can be unvieled, unlocking
+					greater potential.
 				</div>
 
 				<div class="text-rosa-gray-100 text-sm">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptate voluptates
-					numquam, unde possimus perferendis modi facere! Praesentium ratione perspiciatis
-					recusandae quo ad aut expedita fugiat explicabo soluta, fuga facilis? Lorem ipsum dolor
-					sit amet consectetur adipisicing elit.
+					Since the start of my career, data has been at the heart of every project I've undertaken.
+					I enjoy digging into the numbers and seeing what useful insights can be gleaned. I'm
+					excited for what the future holds: from real-time analytics to machine learning, we have a
+					lot to look forward to in this industry.
 				</div>
 
 				<div class="flex gap-3 items-center justify-center lg:justify-start">
@@ -57,7 +57,7 @@
 			</div>
 
 			<div class="lg:w-1/2 flex flex-col gap-5">
-				<div class="text-5xl font-bold">Lorem ipsum dolor sit amet.</div>
+				<div class="text-5xl font-bold">Want to know more?</div>
 
 				<div class="text-rosa-gray-100">Let's talk.</div>
 

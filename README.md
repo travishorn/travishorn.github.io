@@ -5,8 +5,6 @@ built.
 
 ## To Do
 
-- Replace filler text
 - Create site header
   - Nav links for home, about, projects, contact
-- Replace favicon
 - Design project showcase
