@@ -11,6 +11,6 @@
 	<link rel="manifest" href="/site.webmanifest" />
 </svelte:head>
 
-<div class="min-h-screen py-5 bg-rosa-gray-800 text-white">
+<div class="min-h-screen bg-rosa-gray-800 text-white">
 	<slot />
 </div>
