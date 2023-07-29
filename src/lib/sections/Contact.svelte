@@ -1,4 +1,5 @@
 <script>
+	import ContactLink from '$lib/ContactLink.svelte';
 	import { EnvelopeIcon } from 'heroicons-svelte/24/outline';
 	import GitHubIcon from '$lib/icons/GitHub.svelte';
 	import TwitterIcon from '$lib/icons/Twitter.svelte';
@@ -11,22 +12,20 @@
 		<a class="text-rosa-red-400 font-medium underline" href="#contact">Contact</a>
 
 		<div class="flex flex-col gap-6">
-			<a class="flex gap-4 hover:text-rosa-red-400" href="mailto:travis@travishorn.com"
-				><EnvelopeIcon class="w-6 h-6" /> travis@travishorn.com</a
+			<ContactLink href="mailto:travis@travishorn.com"
+				><EnvelopeIcon class="w-6 h-6" /> travis@travishorn.com</ContactLink
 			>
-			<a class="flex gap-4 hover:text-rosa-red-400" href="https://github.com/travishorn"
-				><GitHubIcon class="w-6 h-6" /> github.com/travishorn</a
+			<ContactLink href="https://github.com/travishorn"
+				><GitHubIcon class="w-6 h-6" /> github.com/travishorn</ContactLink
 			>
-			<a class="flex gap-4 hover:text-rosa-red-400" href="https://twitter.com/horn_travis"
-				><TwitterIcon class="w-6 h-6" /> twitter.com/horn_Travis</a
+			<ContactLink href="https://twitter.com/horn_travis"
+				><TwitterIcon class="w-6 h-6" /> twitter.com/horn_Travis</ContactLink
 			>
-			<a
-				class="flex gap-4 hover:text-rosa-red-400"
-				href="https://stackoverflow.com/users/307338/travis?tab=profile"
-				><StackOverflowIcon class="w-6 h-6" /> stackoverflow.com/users/307338/travis</a
+			<ContactLink href="https://stackoverflow.com/users/307338/travis?tab=profile"
+				><StackOverflowIcon class="w-6 h-6" /> stackoverflow.com/users/307338/travis</ContactLink
 			>
-			<a class="flex gap-5 hover:text-rosa-red-400" href="https://travishorn.com"
-				><RSSIcon class="w-5 h-5" /> My blog - travishorn.com</a
+			<ContactLink href="https://travishorn.com"
+				><RSSIcon class="w-5 h-5" /> My blog - travishorn.com</ContactLink
 			>
 		</div>
 	</div>

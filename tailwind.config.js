@@ -12,6 +12,7 @@ export default {
 				'rosa-aquamarine-600': '#00ffbb',
 				'rosa-gray-100': '#c7c7c7',
 				'rosa-gray-400': '#767676',
+				'rosa-gray-700': '#343434',
 				'rosa-gray-800': '#222222',
 				'rosa-gray-900': '#1f1f1f',
 				'rosa-red-400': '#ff644f'
