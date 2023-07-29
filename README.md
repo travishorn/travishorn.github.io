@@ -5,5 +5,4 @@ built.
 
 ## To Do
 
-- Design project showcase
-- Add contact section
+- Design porfolio section
