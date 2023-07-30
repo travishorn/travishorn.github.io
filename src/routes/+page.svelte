@@ -1,5 +1,5 @@
 <script>
-	import Header from '$lib/sections/Header.svelte';
+	import Header from '$lib/Header.svelte';
 	import Hero from '$lib/sections/Hero.svelte';
 	import AboutMe from '$lib/sections/AboutMe.svelte';
 	import Portfolio from '$lib/sections/Portfolio.svelte';
