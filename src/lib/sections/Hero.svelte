@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="font-bold text-2xl">
-			Based in St. Louis, I'm a data scientist and software engineer.
+			I'm a data scientist and software engineer based in St. Louis.
 		</div>
 
 		<div class="text-sm text-rosa-gray-100">
