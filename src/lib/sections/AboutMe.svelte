@@ -5,8 +5,8 @@
 		<div class="flex flex-col lg:flex-row gap-24">
 			<div class="lg:w-1/2 flex flex-col gap-5">
 				<div class="text-2xl font-bold">
-					In the realm of data science, hidden narratives of information can be unvieled, unlocking
-					greater potential.
+					By understanding data, hidden narratives of information can be unvieled, unlocking greater
+					potential.
 				</div>
 
 				<div class="text-rosa-gray-100 text-sm">
