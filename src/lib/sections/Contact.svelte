@@ -2,7 +2,6 @@
 	import ContactLink from '$lib/ContactLink.svelte';
 	import { EnvelopeIcon } from 'heroicons-svelte/24/outline';
 	import GitHubIcon from '$lib/icons/GitHub.svelte';
-	import TwitterIcon from '$lib/icons/Twitter.svelte';
 	import XIcon from '$lib/icons/X.svelte';
 	import StackOverflowIcon from '$lib/icons/StackOverflow.svelte';
 	import RSSIcon from '$lib/icons/RSS.svelte';
